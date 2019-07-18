@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>jsedit</title>
+    <meta name="author" content="Alejandro Blanco López">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" type="text/css" href="styles/colors.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="scripts/main.js"></script>
+</head>
+
+<body>
+    <main>
+        <div>
+            <input type="text" id="filename" class="form-control" placeholder="Insert file name...">
+        </div>
+        <div>
+            <textarea id="text-box" rows="20" cols="80" placeholder="Start writing..." class="form-control"></textarea>
+        </div>
+        <div class="container-fluid well form-inline">
+            <div class="form-group">
+                <input type="file" id="input-file" accept="text/*">
+                <label for="input-file" class="btn btn-success">Load file</label>
+            </div>
+            <div class="form-group">
+                <button id="save-file" class="btn btn-success">Save file</button>
+            </div>
+            <div class="form-group">
+                <select id="color-picker" class="form-control">
+                    <option value="black-in-white">Black in white</option>
+                    <option value="white-in-black">White in black</option>
+                    <option value="green-in-black">Green in black</option>
+                </select>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

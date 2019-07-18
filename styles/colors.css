@@ -1,0 +1,15 @@
+
+.black-in-white, .black-in-white:focus {
+    color: black;
+    background-color: white;
+}
+
+.white-in-black, .white-in-black:focus {
+    color: white;
+    background-color: black;
+}
+
+.green-in-black, .green-in-black:focus {
+    color: lawngreen;
+    background-color: black;
+}

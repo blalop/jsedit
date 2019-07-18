@@ -1,0 +1,35 @@
+
+body {
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #1C2331;
+    color: #ffffff;
+}
+
+main {
+    margin: 4em;
+}
+
+div {
+    margin: 2em;
+}
+
+textarea {
+    font-family: monospace;
+}
+
+/* Hide input as we won't use it */
+input[type="file"] {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+/* Customize label */
+label[for="input-file"] {
+    cursor: pointer;
+}
